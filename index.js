@@ -1,1 +1,2 @@
-console.log("hello world!");
+console.log("hello worlds!");
+//ESECUZIONE TERMINAL: node index.js
