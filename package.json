@@ -1,0 +1,19 @@
+{
+  "name": "esercizio",
+  "version": "1.0.0",
+  "description": "esercizio di oggi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotAlex575/node-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotAlex575/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/NotAlex575/node-hello-world#readme"
+}
