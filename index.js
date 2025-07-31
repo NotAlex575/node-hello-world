@@ -4,9 +4,14 @@
 
 //EXTRA
 
+let output = "";
 const cosaScrivo = require("./consoleLogModify.js");
 
-const outputConsole = process.argv[2];
-const output = cosaScrivo(outputConsole);
-
+let outputConsole = process.argv[2];
+if(outputConsole !== undefined){
+    output = cosaScrivo(outputConsole);
+}
+else{
+    output = "non è stato inserito niente in input..."
+}
 console.log(output);
